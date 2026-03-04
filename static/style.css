@@ -1,1 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+/* Image on left */
+.hero-image {
+    width: 120px;
+    height: auto;
+}
+
+/* Main heading */
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: black;
+}
+
+/* INTRO SECTION */
+.intro {
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* ABOUT SECTION */
+.about {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+/* Smaller header than main one */
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* About paragraph */
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+}
+
+/* PRODUCTS SECTION */
+.products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+/* Product Card Layout */
+.product-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+/* Product Images */
+.product-card img {
+    width: 300px;
+    height: auto;
+}
+
+/* Product Text */
+.product-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.product-info h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.product-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
 
